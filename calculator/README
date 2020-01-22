@@ -1,0 +1,16 @@
+```
+cd math-lib
+mkdir build
+cd build
+cmake ..
+make
+
+cp calculator
+cp -r ../math-lib/include .
+cp -r ../math-lib/libs .
+mkdir build
+cd build
+cmake ..
+make
+./hello
+```
